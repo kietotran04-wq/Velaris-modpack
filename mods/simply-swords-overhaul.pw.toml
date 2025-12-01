@@ -1,0 +1,13 @@
+name = "Simply Swords: Overhaul"
+filename = "simply_swords_overhaul-1.0.4-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aee8701d2ceca3885889b12766a490fbf305a6be"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7005071
+project-id = 1224395

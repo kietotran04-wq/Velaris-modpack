@@ -1,0 +1,13 @@
+name = "JustLeveling Fork x IronSpell"
+filename = "JustLeveling x IronSpell-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f62ad158a750e23493e058617b73d6c40fc09b9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5637991
+project-id = 1085645

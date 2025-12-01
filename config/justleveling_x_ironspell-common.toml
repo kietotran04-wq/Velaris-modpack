@@ -1,0 +1,9 @@
+
+["Justleveling x Ironspell"]
+	#Range: > 0
+	"mana passive" = 150
+	#Range: > 0
+	"cooldown passive" = 0.6
+	#Range: > 0
+	"cast passive" = 20
+

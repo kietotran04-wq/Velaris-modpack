@@ -1,0 +1,13 @@
+name = "LUMINOUS: BEASTS"
+filename = "Luminous Beasts V1.2.51 - Forge 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c72c472afd7789d0276e550f88c506cc40cf85b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6541623
+project-id = 1089627

@@ -1,0 +1,13 @@
+name = "Lios Spiral Tower Villages"
+filename = "spiral_tower_village-0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aadb0847fa0c7f36341e1bd3e501d402df2b7419"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7060033
+project-id = 1280127

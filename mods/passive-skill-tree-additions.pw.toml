@@ -1,0 +1,13 @@
+name = "Passive Skill Tree Additions"
+filename = "passiveskilltreeadditions-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec28a45089e4d52a469636754adfc93e25eda62c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5593454
+project-id = 977754

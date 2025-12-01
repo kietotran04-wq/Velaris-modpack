@@ -1,0 +1,13 @@
+name = "No Baby Zombies"
+filename = "nobz-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06c48236c2191c101e22d4243598e08df977508a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6205182
+project-id = 959336

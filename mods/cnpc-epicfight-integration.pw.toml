@@ -1,0 +1,13 @@
+name = "CNPC-EpicFight-Integration"
+filename = "CNPC-EpicFight-Addon-1.20.1-20.9.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b0f87a82c4fe88c66e65ec2dafbac9715cb6bf36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6910487
+project-id = 1067457

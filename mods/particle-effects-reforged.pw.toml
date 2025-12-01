@@ -1,0 +1,13 @@
+name = "Particle Effects Reforged"
+filename = "particle_effects-1.20.1-Forge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ec35daee21c7c8acf067699c67f08135ca9f8fa4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6584238
+project-id = 1274497
