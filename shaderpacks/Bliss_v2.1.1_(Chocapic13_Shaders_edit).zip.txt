@@ -1,2 +1,0 @@
-#Thu Nov 06 20:26:17 ICT 2025
-TONEMAP=ToneMap_Hejl2015
