@@ -1,0 +1,730 @@
+{
+	autofocus_id: "2BD12BC6536234C6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "affix_enchanting"
+	group: "578CEED7CC7D235C"
+	icon: "apotheosis:reforging_table"
+	id: "55DD54D09FDB1B6C"
+	images: [
+		{
+			height: 3.0d
+			image: "apotheosis:items/gem_dust"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.464285714285715d
+			y: -5.642857142857146d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:items/gems/arachnarch"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/mob_effect/blessing_of_amethyst.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			height: 0.5d
+			image: "subtle_effects:textures/particle/amethyst_sparkle.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			alpha: 180
+			color: 16579327
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 90.0d
+			width: 0.5d
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			height: 1.4d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.4d
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_tip_merge"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			height: 1.3d
+			image: "minecraft:block/pointed_dripstone_down_frustum"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pointed_dripstone_down_middle"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			height: 2.2d
+			image: "minecraft:block/pointed_dripstone_down_tip"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "patchouli:textures/gui/entry/entity_naming_guide/dwarf_villager.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "dungeons_and_combat:item/blacksmith_hammer"
+			rotation: -75.0d
+			width: 1.0d
+			x: -5.464285714285708d
+			y: -6.785714285714292d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "dungeons_and_combat:textures/particle/blessed_sparkle_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -8.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A8408C59B32F69D"]
+			description: [
+				"These Sigils add more sockets to your gear! There is a cap per Affix level so do keep that in mind when using them."
+				"You use the &8Smithing Table&f for this Sigil."
+			]
+			id: "2C290D596110BBD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CF1D3D4D75610BA"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09704BE56437E542"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "More space for gems"
+			tasks: [{
+				id: "189CE86C963F8DFD"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: [
+				"Don't want a certain gem anymore or maybe found one on some random gear you don't want to use? "
+				""
+				"This Sigil is perfect for you then. Combine the item with this Sigil inside a &8Smithing Table&f and it will remove all the gems for the cost of 1 Sigil. "
+			]
+			id: "2A8408C59B32F69D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E73CBB384330F89"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57006178A7B64623"
+					table_id: 7543698869780679326L
+					type: "random"
+				}
+			]
+			subtitle: "What a bargain!"
+			tasks: [{
+				id: "35FE9D9AF43A700B"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			title: "Sigil of Withdrawal"
+			x: -9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: ["These are the sigils mentioned in the previous quest, the ones similar to lapis. The higher level Affix you choose, the more &6Rebirthing Sigils&f you need to complete the enchantment."]
+			id: "26BC764384E82779"
+			rewards: [
+				{
+					count: 6
+					id: "720BA83B491D7286"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "14860FCCB830D02A"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			subtitle: "Like a Phoenix"
+			tasks: [{
+				id: "034712AD3D1041F8"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["38CCA4B98D53137C"]
+			description: ["These Sigil's are also fuel! This time they are for the &dAugment Table&f."]
+			id: "5DE7CB7D652F3EE9"
+			rewards: [
+				{
+					id: "02E55880E0835B85"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "28E4ADD951D962A4"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4920C889EC50D318"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+			]
+			subtitle: "First set is on the house. -Turtle"
+			tasks: [{
+				id: "391C6AFF053F855A"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2BD12BC6536234C6"]
+			description: ["The perfect Sigil to get rid of naming from your Affix items. That way you can name your items whatever you so choose without the extra hassle attached."]
+			id: "3CB00C596A146F3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AFEA24C4AF9CD54"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "201055362CA3632B"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "I forgot"
+			tasks: [{
+				id: "3B7CF3ED2829E164"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			title: "Sigil of Unnaming"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			description: ["This questline will show you how to use the &bReforging Tables&f which will be a great help at surviving higher level mobs!"]
+			id: "5258930F6B77FFFC"
+			size: 1.3d
+			subtitle: "Not your average upgrades"
+			tasks: [{
+				id: "055B8149BA82CB82"
+				title: "Bigger And Better Enchanting"
+				type: "checkmark"
+			}]
+			title: "&5&lAffix Enchanting"
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5258930F6B77FFFC"]
+			description: ["The first step is easy, throw some gems you don't want on the ground and drop an avil on them, they will break and give you &dGem Dust&f, a very important tool for this section."]
+			id: "78A30123B0234B9C"
+			subtitle: "Smashing success!"
+			tasks: [{
+				count: 2L
+				id: "268D043CA1B0A7D1"
+				item: { Count: 2, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78A30123B0234B9C"]
+			description: ["A &aSalvaging Table&r is probably the most important block in this section. It allows you to break down Affix gear and Gems for rarity materials/dust."]
+			id: "2AD16EF9C0F0C23A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40EC6D8B4775DE0B"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "Recycling"
+			tasks: [{
+				id: "0D7D3A12AADD1C9B"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: ["These slates will be used a lot for making sigils of various types, including one that we use to power the &bReforging Table&f similar to how we use lapis to power the Enchantment Table."]
+			id: "2BD12BC6536234C6"
+			rewards: [
+				{
+					count: 12
+					id: "29AF69ABC1FFA0CA"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "21386E7811537264"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			subtitle: "A clean slate"
+			tasks: [{
+				count: 8L
+				id: "717036E1E92CB8B8"
+				item: { Count: 8, id: "apotheosis:gem_fused_slate" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26BC764384E82779"]
+			description: [
+				"The moment you've been waiting for, its time to learn how to craft the &bSimple Reforging Table&f and use it. The table isn't a hard craft, 1 Iron, 1 enchantment table, 3 smooth stone, and finally 2 gem dust."
+				"{@pagebreak}"
+				"The top left will hold the Rarity material for the level of Affix you want to add, the base table is only up to rare, the middle is used for your item, and the bottom right is used for the &6Rebirth Sigils&f."
+				"The bottom 3 are 3 different options to choose from each doing differen't things and requring different amount of experience/&6Rebirth Sigils&f."
+			]
+			id: "11D9162218F30D68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63026AB2FF6847CB"
+					table_id: 7543698869780679326L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A0E13369B187A69"
+					table_id: 5740687291917975057L
+					type: "random"
+				}
+			]
+			subtitle: "Finally!"
+			tasks: [{
+				id: "0E3C1101D9CDA080"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["11D9162218F30D68"]
+			description: ["This table works similar to the &bSimple Reforging Table&f except it now reforges up to Mythic level. "]
+			id: "38CCA4B98D53137C"
+			rewards: [
+				{
+					id: "73AACEE823AAAEA7"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "69CBF5D7EAF17D43"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "671D6E7A3C516B54"
+					table_id: 5740687291917975057L
+					type: "loot"
+				}
+			]
+			subtitle: "Fancy"
+			tasks: [{
+				id: "60DC3CA654C6C35E"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: [
+				"In the &2Overworld&f you'll find mostly up to &bRare&f and sometimes &5Epic&f tiered gear."
+				"In the &4Nether&f you'll find up to &5Epic&f and sometimes &cAncient/Heirloom tier&f."
+				"The &7End&f is where you'll find the bulk of your &6Mythic Gear&f pieces."
+			]
+			id: "58315313353508F2"
+			tasks: [{
+				id: "198D187B8608A7FA"
+				type: "checkmark"
+			}]
+			title: "Rarity Levels Of The Realms"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DE7CB7D652F3EE9"]
+			description: ["The &dAugment Table&f is used for re-rolling affixes or empowering them. Simple and easy to go about, just make sure you have enough &dEnchantment Sigils&f!"]
+			id: "2BBAE7488B2FBC84"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48255A1705F3D4E8"
+					table_id: 2238362529489443161L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E2717022FA9C84B"
+					table_id: 2238362529489443161L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1F68187B6D547368"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CB00C596A146F3A"]
+			description: ["Using one of these with a bunch of artifact shards and boss related materials you can make a special type of gem!"]
+			id: "11C0DB1BFB142568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2056C7DB879AB73B"
+				table_id: 5740687291917975057L
+				type: "random"
+			}]
+			subtitle: "No snoozing!"
+			tasks: [{
+				id: "7A7317B9B60A8E83"
+				item: "apotheotic_additions:gemboundsigil"
+				type: "item"
+			}]
+			title: "Sigil of Awakening"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AD16EF9C0F0C23A"]
+			description: ["This gem table is great for upgrading your gems, increasing their rarity. You'll need a certain level of Affix materials depending on level of the gem, 2 copies of that gem, and finally some &dGem Dust&f."]
+			id: "3F198DED8757995A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "510D94F6EF90104D"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23FA178583B7FCD6"
+					table_id: 8047673370725298800L
+					type: "random"
+				}
+			]
+			subtitle: "Only cut your gems."
+			tasks: [{
+				id: "591ACD1CFD1B194E"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+	]
+	title: " Bùa Chú Rèn"
+}

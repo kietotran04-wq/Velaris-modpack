@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lfactions"
+	group: "59FD824E9CBEF444"
+	icon: "valarian_conquest:valarian_citizenship"
+	id: "7106564D67C7D8E5"
+	images: [
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/valarianshield"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/numerianroundshield"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/galicianshield"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/lancastianshield"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/caladrianshield"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/bohemianshield"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/visgothianshield"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/gardonianshield"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/valariansword"
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/galiciansword"
+			rotation: 44.0d
+			width: 2.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/caladriansword"
+			order: 1
+			rotation: 135.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependency: "3E89EBD6C01E2F99"
+			height: 2.0d
+			image: "valarian_conquest:block/visgothiansword"
+			rotation: -135.0d
+			width: 2.0d
+			x: -1.5d
+			y: 0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"There are &l&d8 factions&r in &l&4Soulrend&r, each with their own unique gear, units, and citizenship."
+				""
+				"To earn citizenship to any faction, you must &l&ddefeat the King&r of said faction. He will &ldrop a citizenship&r which you may &lconsume&r to make all units of that faction &lneutral or follow your commands&r."
+			]
+			icon: "valarian_conquest:valarian_citizenship"
+			id: "3E89EBD6C01E2F99"
+			rewards: [{
+				id: "001D241E1047F471"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Many Houses Scatter the Realm"
+			tasks: [{
+				id: "57ACCDD19E94452D"
+				title: "Valarian Factions"
+				type: "checkmark"
+			}]
+			title: "&lFactions"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "074EE7F0F64982FC"
+			rewards: [
+				{
+					id: "5EC6129162C7ED62"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "1D69CD2CE9BF57A5"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FC8A3A9C6B01CD4"
+				item: "valarian_conquest:valarian_citizenship"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "392468D975899A32"
+			rewards: [
+				{
+					id: "100499F9E5609010"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "368620C2A3F29271"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AE8F0F52891B579"
+				item: "valarian_conquest:bohemian_citizenship"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "2365BA5949FE6427"
+			rewards: [
+				{
+					id: "30AA997EE292455D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "37F50D3D23F217D4"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "591872936301447F"
+				item: "valarian_conquest:caladrian_citizenship"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "60BF45A9C5958BC5"
+			rewards: [
+				{
+					id: "33D6B5AB766AE7EF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "4209ACCBD4EB6672"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E16B7F1DEB96DCD"
+				item: "valarian_conquest:numerian_citizenship"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "67FA222531307F99"
+			rewards: [
+				{
+					id: "1B0D377D0ACCE305"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "263FD7AA0B3C9F89"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42A27060C56343D3"
+				item: "valarian_conquest:visigothian_citizenship"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "3BB99892967DD459"
+			rewards: [
+				{
+					id: "7891C42F1E06F806"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "56F54DF40B9BBE89"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34F719D4B5B86C39"
+				item: "valarian_conquest:gardonian_citizenship"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "71D958B18C1FA655"
+			rewards: [
+				{
+					id: "3737A1AB453B53B8"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "3CF25ED1DC65007A"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2479D82487F2AF9F"
+				item: "valarian_conquest:galician_citizenship"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E89EBD6C01E2F99"]
+			hide_until_deps_complete: true
+			id: "0425F9648802CDCC"
+			rewards: [
+				{
+					id: "442CA130252DFA46"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0FE3C57A5803F1CD"
+					item: "magistuarmory:steel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3EF76EEDB4B074A8"
+				item: "valarian_conquest:lancastian_citizenship"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+	]
+	title: " Factions"
+}

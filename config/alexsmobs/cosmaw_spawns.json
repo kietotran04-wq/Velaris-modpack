@@ -1,0 +1,11 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "minecraft:small_end_islands"
+      }
+    ]
+  ]
+}

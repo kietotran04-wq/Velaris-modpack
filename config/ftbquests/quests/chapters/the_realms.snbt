@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_realms"
+	group: ""
+	icon: "waystones:waystone"
+	id: "08297027A1F40820"
+	images: [
+		{
+			height: 10.0d
+			image: "deeperdarker:item/warden_sword"
+			rotation: 135.0d
+			width: 10.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 1.3d
+			image: "supplementaries:block/pedestal_side_top"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependency: "55A21D1598641602"
+			height: 3.0d
+			image: "lootr:block/barrel_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+			id: "55A21D1598641602"
+			rewards: [{
+				id: "6737DE295430D365"
+				item: {
+					Count: 1
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:roll"
+					}
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 2.0d
+			subtitle: "Thế Giới Cần Một Anh Hùng"
+			tasks: [{
+				id: "399DFC00AEB4AD93"
+				title: "The Realms"
+				type: "checkmark"
+			}]
+			title: "&lWelcome to Velaris Circle"
+			x: 0.0d
+			y: -1.3d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"You can switch into &lcombat mode&r press the &d[&lR&r&d]&r key (default)"
+				""
+				"Press &d[&lQ&r&d]&r key (default) to lock-on to enemies"
+				""
+				"While in combat mode you will deal more damage, harness special weapon skills, and use epic fighting movesets unique to gear, as well as being able to mine."
+				""
+				"&lIt is &drecommended&r &lto stay in combat mode during your playthrough&r."
+			]
+			icon: {
+				Count: 1
+				id: "epicfight:diamond_dagger"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "321216AE82C1B92C"
+			rewards: [
+				{
+					id: "497A25CED945426F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "21AFAAD5ED4D9386"
+					item: {
+						Count: 1
+						id: "epicfight:skillbook"
+						tag: {
+							skill: "epicfight:roll"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Switch Into Epic Combat"
+			tasks: [{
+				id: "2B4BE9C492AA0DA5"
+				title: "Combat Mode [R]"
+				type: "checkmark"
+			}]
+			title: "Combat Mode [R]"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["You can reach the leveling screen through a &l&dtab in your inventory menu&r, there you will find different attributes you can level up. You can trade &l&axp&r for &dattribute points&r."]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "79E68DB1D1C62243"
+			rewards: [{
+				id: "1240D59C14105A14"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Grow in Power"
+			tasks: [{
+				id: "054FD66B26DFB298"
+				title: "Leveling Up"
+				type: "checkmark"
+			}]
+			title: "&l&bLeveling Up"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79E68DB1D1C62243"]
+			description: [
+				"The second system of progression is the &lSkill Tree&r, you can access the &lSkill Tree&r by pressing &l&d[O]&r (default), there, you will find &dhundreds of skills&r and &dperks&r to unlock."
+				""
+				"To gain skill points you must &ddefeat creatures&r."
+			]
+			hide_until_deps_complete: true
+			icon: "skilltree:wisdom_scroll"
+			id: "5E635B38BD4C9FEE"
+			rewards: [
+				{
+					id: "73106DF92C1EC740"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "668A6BDE8CF2EBE8"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Unlock Unique Perks"
+			tasks: [{
+				id: "664B1E074945F8F8"
+				title: "The Skill Tree"
+				type: "checkmark"
+			}]
+			title: "&bThe Skill Tree"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"The &d&lEMI&r&r menu is on the &lRight&r side of the inventory menu, with a search bar for it below the player inventory."
+				""
+				"&d&lEMI&r&r will help you navigate through the vast amounts of blocks and items, simply &lLeft Click&r on an item to view the crafting recipe (if any), and &lRight Click&r to view what the item can be used to craft."
+				""
+				"In the individual item menu you can also see what mobs drop the given item, and what other mechanics will craft such item."
+			]
+			hide_until_deps_complete: true
+			icon: "waystones:return_scroll"
+			id: "066E846D6D497AFF"
+			rewards: [{
+				id: "78A2F3C824AD582E"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "[Read Me]"
+			tasks: [{
+				id: "0F69D3D67D59486C"
+				title: "EMI and Menus"
+				type: "checkmark"
+			}]
+			title: "&l&dEMI Menu"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["066E846D6D497AFF"]
+			description: ["In &4&lSoulrend&r you will use quests to progress through your adventure. From earning rewards to slaying powerful bosses, and learning how to use mechanics in the game, the &dQuest Book&r will be your player's companion."]
+			hide_until_deps_complete: true
+			icon: "ftbquests:book"
+			id: "461C5DF122F6FDBC"
+			rewards: [{
+				id: "05F0F893795BFB76"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Using the Quest Book"
+			tasks: [{
+				id: "15AA2E14C47F56C4"
+				title: "&dQuesting"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: ["&lTom's Simple Storage&r allows you to create simple &9storage networks&r, connecting chests and other inventories into one terminal for easy access."]
+			hide_until_deps_complete: true
+			icon: "toms_storage:ts.wireless_terminal"
+			id: "48DB883D12A51051"
+			rewards: [
+				{
+					count: 4
+					id: "6121083FEF490081"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D75489DDFA5BAF7"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "7C97A9856B578FFC"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "A Super Simple Storage Solution"
+			tasks: [{
+				id: "65AB2924574E18A7"
+				title: "&lTom's Simple Storage"
+				type: "checkmark"
+			}]
+			title: "&lTom's Simple Storage"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48DB883D12A51051"]
+			description: [
+				"An &lInventory Connector&r does what it sounds like, it connects chest, barrels, etc together to be a network of storage. Just place the &lInventory Connector&r where it is touching a storage unit and it will connect all touching inventories."
+				""
+				"You can craft one with &l4 planks&r, &l2 chests&r, &l1 ender pearl&r, &l&b1 diamond&r, and &l1 redstone comparator&r. Check your &d&lEMI&r menu for the recipe."
+			]
+			id: "7742E2A97ED2CE1C"
+			rewards: [
+				{
+					id: "128E14DCB55AB243"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7D9C7FEB09FA28C9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Connects Inventories Together"
+			tasks: [{
+				id: "5C9A66C085DB2DCB"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48DB883D12A51051"]
+			description: [
+				"A &lStorage Terminal&r allows you to access your &lstorage network&r in a single interface. Place the &lStorage Terminal&r onto the &lInventory Connector&r to access your &lstorage network&r."
+				""
+				"To craft one you'll need, &l4 planks&r, &l1 chest&r, &l1 glass block&r, &l&e1 glowstone block&r, and &l2 redstone comparators&r. Check your &l&dEMI&r menu for the recipe."
+			]
+			id: "45CB2435B6BC27ED"
+			rewards: [
+				{
+					count: 2
+					id: "5BBF34625A2F3E6E"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "6B331CE600CBB8A5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "Interact with the Network"
+			tasks: [{
+				id: "0A2171D152555F9C"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A998F65024DD508"]
+			description: [
+				"Pickup mechanics have been changed to fit a looting aspect, now items will drop on the ground and can be &lpicked up by &r&l&dRight Clicking&r."
+				""
+				"Alternatively, you can &lpick up all drops around yourself&r like vanilla by &l&dCrouching&r, &luseful for items amongst grass&r."
+			]
+			hide_until_deps_complete: true
+			id: "7FDD515A9A61FC09"
+			rewards: [{
+				id: "2186897B1C154FE7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "[Read Me]"
+			tasks: [{
+				id: "1F84774527CFB946"
+				title: "Complete"
+				type: "checkmark"
+			}]
+			title: "Looting and Pickup Mechanics"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55A21D1598641602"]
+			description: [
+				"Congratulations, you've started your journey with a selected &lRace and Class&r, but what if you don't actually want what you chose? "
+				""
+				"Use this &bOrb of Origin&r to reselect, but be careful, &l&7you can only use it once&r&r."
+			]
+			icon: "origins:orb_of_origin"
+			id: "0A998F65024DD508"
+			rewards: [{
+				id: "7C06B35B98923087"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "[Read Me]"
+			tasks: [{
+				id: "6F24F75019182284"
+				title: "Origins and Classes"
+				type: "checkmark"
+			}]
+			title: "&bOrigin and Class"
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "&l&f Sự Khởi Đầu"
+}

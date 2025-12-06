@@ -1,0 +1,20 @@
+{
+	"enableCustomResourceBars": true,
+	"cancelLevelsForPassives": true,
+	"structureSearchRadius": 6,
+	"enableStructureLevelBonus": true,
+	"structureLevelBonuses": { },
+	"levelingSearchRadius": 128.0,
+	"levelsPerPoint": 0.2,
+	"applyPlayerBasedLeveling": false,
+	"enableAutoRegeneration": true,
+	"autoRegenCheckInterval": 40,
+	"structureInactivityTimeoutSeconds": 900,
+	"autoRegenRadius": 32.0,
+	"structureWhitelist": {
+		"allowedNamespaces": [],
+		"additionalStructures": [],
+		"blacklistedStructures": []
+	},
+	"maxStacksPerEntity": 128
+}
