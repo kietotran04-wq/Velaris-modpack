@@ -5569,6 +5569,10 @@ file = "data/fabricDefaultResourcePacks.dat"
 hash = "56dcdc36f4d3fe993c688cd6d60c2ef0d83480a63305425e068d171f8fcda7db"
 
 [[files]]
+file = "de.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "defaultconfigs/epictweaks-client.toml"
 hash = "a8524ceed92045f32378f032d2eae7351d465e586dc2ad69d491cb76b29662a5"
 
