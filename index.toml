@@ -5613,10 +5613,6 @@ file = "keybinding presets/server.preset.txt"
 hash = "846923fe54b628594a7e6d40fcd53f4dc1bf9c580c768a166d3adba255fd092f"
 
 [[files]]
-file = "kietotest.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "mods/.connector/FancyHotbar-Fabric-1.0.0_mapped_srg_1.20.1.jar"
 hash = "769f9b3641a6874791f9d89bdfbe1190dc9fa8dcb62d4e718dc762000e5c1a3a"
 
