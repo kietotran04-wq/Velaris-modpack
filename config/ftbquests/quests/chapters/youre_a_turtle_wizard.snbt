@@ -1,0 +1,1031 @@
+{
+	autofocus_id: "2146188A3AD6CAF0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "youre_a_turtle_wizard"
+	group: "578CEED7CC7D235C"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:dragonskin_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 12
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+			affix_data: {
+				sockets: 0
+			}
+		}
+	}
+	id: "0CA96350C108059D"
+	images: [
+		{
+			height: 1.0d
+			image: "fantasy_armor:item/wandering_wizard_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -34.0d
+			y: -2.1785714285714306d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -32.14285714285715d
+			y: -2.3214285714285765d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -31.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -29.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -27.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -24.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -36.85714285714287d
+			y: 1.25d
+		}
+		{
+			alpha: 180
+			height: 1.0d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -35.21428571428572d
+			y: -1.500000000000007d
+		}
+		{
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -34.0d
+			y: -3.5d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -32.25000000000001d
+			y: -1.142857142857146d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -25.0d
+			y: 1.0d
+		}
+		{
+			alpha: 180
+			height: 0.5d
+			image: "soulsweapons:textures/particle/soul_spark.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -30.5d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			image: "justleveling_x_ironspell:textures/skills/magic/cooldown_passive.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -36.78571428571429d
+			y: -1.8214285714285765d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Magic is very imporant for a wizard and still very helpful for those that only dabble in magic. Magic is great for damaging or utility spell such as teleport. There are many classes of magic to learn from such as &6Fire&f&r, &bIce&f&r, &eLightning&f&r, &2Poison&f&r, &5Ender&f&r, &7Evocation&f&r, &fHoly, &4Blood&f&r, &2Geomancy&r and a special school called &0Eldritch&f&r."]
+			id: "6AD127305440E2A9"
+			subtitle: "Back To School"
+			tasks: [{
+				id: "79F1DB8A2D884D10"
+				type: "checkmark"
+			}]
+			title: "A Wizard's First Spell"
+			x: -37.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AD127305440E2A9"]
+			description: ["First to craft any spells we need a &lScroll Forge&r. Using it and various items we can craft spells from various different schools."]
+			id: "6BC37BD93B5935B0"
+			rewards: [
+				{
+					id: "526427C999611BD5"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "41777F314E8762A0"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+				{
+					id: "7231626744CA1FB5"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "41FCA6F9AFD5256A"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "5D6F60DC6FD3DBF1"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "472242D9F193B6C3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7CD4450A8F86222D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4AEE0E2C28665E05"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "547605ACB680B2FB"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			subtitle: "No Flames Needed Here"
+			tasks: [{
+				id: "574018A1EC298BEC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6BC37BD93B5935B0"]
+			description: ["Using this table we can then put in our newly crafted spells into a spell book. Turtle being the kind magic mentor I will give you your first book on the house to put your brand new spell into."]
+			id: "695A42F881C50703"
+			rewards: [{
+				id: "455ECBC64697C5CB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Our Study Table"
+			tasks: [{
+				id: "0F16C6939A1DD2D9"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["695A42F881C50703"]
+			description: ["A very simple but upgraded spellbook for more slots or slot in this case. Different spellbooks have different attributes that can help enchance certain Magic Schools or Mana Regen/Max Mana. Some spell books also come preloaded with certain spells!"]
+			id: "2146188A3AD6CAF0"
+			rewards: [{
+				id: "2DD89AEFF2B5528C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:uncommon"
+						}
+						gem: "irons_spellbooks:cast_time"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Simple Yet Unbreakable"
+			tasks: [{
+				id: "36A93AF788220002"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["Still unsure what school you wanna focus on this book is for you! This has increased slots and Max Mana while also being easy to craft."]
+			id: "06FDA0121F0FE697"
+			rewards: [{
+				id: "7BE6050EAEB5A930"
+				table_id: 858487407543727412L
+				type: "random"
+			}]
+			subtitle: "Basic Magic"
+			tasks: [{
+				id: "75A5E8A397B8903F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.7142857142857d
+			y: 0.357142857142847d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["While this book has less slots than the Enchanted SpellBook it does boast less Cast Time."]
+			id: "20CECB4ABEB9EDE5"
+			rewards: [{
+				id: "7FA6C91BAC5B2D6C"
+				table_id: 858487407543727412L
+				type: "random"
+			}]
+			subtitle: "Still Kinda Basic?"
+			tasks: [{
+				id: "514F489518B7BB00"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.749999999999986d
+			y: -1.5357142857142954d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["The catalyst for great change. Often found within &nAnicent Cities&r. Using this book as a crafting material we can make much strong spell books and also school focused books."]
+			id: "17DE785FD80DFF0A"
+			rewards: [
+				{
+					id: "564B4A286C3C6A27"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "4F818456BF3E5013"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15E1C597031D36DE"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "The Words Are Broken"
+			tasks: [{
+				id: "0EDC17E36AABF5B5"
+				item: "irons_spellbooks:ruined_book"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["A great spell book for rapid casting, boasts high cooldown reduction and also more magic mana!"]
+			id: "45332245ED4A43BA"
+			rewards: [{
+				id: "1E3B203487F5FFCF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Advanced Magic Finally"
+			tasks: [{
+				id: "7C6D9E894ACAD6B4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.999999999999993d
+			y: -2.6428571428571495d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["I'm sure you've collected a lot of Dragon Skin by this point. Using them along with a ruined book can craft a Dragonskin Spell Book. This book boasts high mana and also strengthens the school of &5Ender&f&r."]
+			id: "3F50B6B01FF0C679"
+			rewards: [{
+				id: "6A92F2E9EA19619A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:teleport"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dargon Book"
+			tasks: [{
+				id: "07E3EEF035B1DCF5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.999999999999993d
+			y: -1.3571428571428648d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Normally a rare drop from Evokers or Archevokers, but also craftable using a ruined book. This Spell Book boasts &7Evocation&f&r empowerment, more mana, and even 3 pre-inscribed spells!"]
+			id: "32379A257B843BE2"
+			rewards: [{
+				id: "51F1A42A2F85B10E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Evo- Evokation?"
+			tasks: [{
+				id: "70DCDCB2A7286BB4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.464285714285715d
+			y: -2.6428571428571317d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Normally found by trading a Priest a written book that is found within Evoker Forts and then translated from a captive wandering trader. Otherwise also craftable here! This book boasts increased Holy power, cast time reduction, and also more mana!"]
+			id: "11524D3B6089498E"
+			rewards: [{
+				id: "0CFF492EC41571F2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:healing_circle"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Praise Notch!"
+			tasks: [{
+				id: "671EEEBD284EE2A8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.464285714285708d
+			y: 1.4999999999999858d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["This like the Evokation Grimoire comes preloaded with a few spells but also boosts the power of the spell Raise Dead by 1 level. The book itself only gives more mana otherwise."]
+			id: "18A33BF5696D1B5A"
+			rewards: [{
+				id: "17CF96A1316FBF92"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:raise_dead"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The Smell Of Death"
+			tasks: [{
+				id: "3E3DA5A21C3031E8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Probably one of the best all around magic books. It boasts high spell power and also high max mana!"]
+			id: "429EB03FEC849096"
+			rewards: [{
+				id: "0D592355A98452AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_bolt"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "WOOZA"
+			tasks: [{
+				id: "0A6FEFB797034B42"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.999999999999993d
+			y: 0.2142857142857011d
+		}
+		{
+			dependencies: ["11524D3B6089498E"]
+			description: ["Just a better Villager's Bible!!!"]
+			id: "051D128427C7C7C2"
+			rewards: [{
+				id: "3A18E0E54B2FBC6B"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			subtitle: "Praise da Lord"
+			tasks: [{
+				id: "422D2109EB1C151C"
+				item: {
+					Count: 1
+					id: "dacxirons:divine_manuscript_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "dacxirons:sunleia_beam"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -27.42857142857143d
+			y: 2.6785714285714306d
+		}
+		{
+			dependencies: ["2146188A3AD6CAF0"]
+			description: ["Very easy to make and does have more spell slots than an ironbound tome but does lower your spell resistance."]
+			id: "3B6F08D5336932E5"
+			rewards: [{
+				id: "0F0410066E131F46"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "fallen_gems_affixes:compat/spell_nature"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Kinda Desperate"
+			tasks: [{
+				id: "6A57EAB3238C4F79"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B6F08D5336932E5"]
+			description: ["Grown from a rotten spell book. This book boasts an increase to &aNature&f&r magic and also max mana."]
+			id: "0F38FB238C5CF47C"
+			rewards: [{
+				id: "3A6EE543B114C648"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:oakskin"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Smells Like Flowers!"
+			tasks: [{
+				id: "4694EDB3C53E3A8E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -31.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D6E593951B30633"]
+			description: ["If swords aren't your thing you can always use Canes and Staves for extra magic cool downs, cast time reductions, and spell power."]
+			id: "7F9B838D4E7DA6B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36E1D836B0357043"
+				table_id: 8047673370725298800L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74B14E9CC91620FE"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -35.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D6E593951B30633"]
+			description: ["Unlike the Cane this staff boasts faster mana regen while also increasing spell power."]
+			id: "76DDC87BFB14E45A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659D99B760C9D11F"
+				table_id: 7543698869780679326L
+				type: "random"
+			}]
+			subtitle: "No Beard Needed"
+			tasks: [{
+				id: "4438240C7A9A491A"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -32.57142857142857d
+			y: 0.5714285714285836d
+		}
+		{
+			dependencies: ["3D6E593951B30633"]
+			description: ["Don't forget your mittens while using this staff! We don't have an &bIce&f book so this staff is a must have for boosting your &bIce&f&r magic spells! (Perma Frost Shards should be in ice spike biomes near ship wrecks)"]
+			id: "25171A658D1EA602"
+			rewards: [{
+				id: "47A0DD8F8FF17B4A"
+				item: "irons_spellbooks:permafrost_shard"
+				type: "item"
+			}]
+			subtitle: "Brrrrrr!"
+			tasks: [{
+				id: "063217DBE303E38D"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: -35.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D6E593951B30633"]
+			description: ["Might want some rubber gloves for this staff. Beware the lightning strikes while holding this one! We don't have an &eLightning&f book so this staff is a must have for boosting your &eLightning&f&r magic spells!"]
+			id: "295610B5720844EE"
+			rewards: [{
+				id: "6BE1C78396415D64"
+				item: "irons_spellbooks:lightning_bottle"
+				type: "item"
+			}]
+			subtitle: "Bzzzz"
+			tasks: [{
+				id: "6F503ACFBCC7E468"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: -32.57142857142857d
+			y: 1.5000000000000213d
+		}
+		{
+			description: ["Maybe you're more of a full caster magic, in that case making use of various Canes, Staves, and sticks will be very helpful in increasing your magical powers."]
+			id: "3D6E593951B30633"
+			tasks: [{
+				id: "56109DE946D8B732"
+				title: "Magic Sticks"
+				type: "checkmark"
+			}]
+			x: -34.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3D6E593951B30633"]
+			description: ["This Staff isn't craftable. You will have to go find the Undead King and pry it off his dead body after a fierce battle. The only staff or book to increase the damage of your summons or &4Blood&f magic."]
+			id: "50DF48DA0D5D3D5C"
+			rewards: [{
+				id: "04B81D3D20F7E1D1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6C43358C0055C5A2"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: -34.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06FDA0121F0FE697"]
+			description: ["Randomly found from Blazes as a rare drop when killing them. Great for boosting &6Fire&f magic spells."]
+			id: "366AF842A47969FE"
+			rewards: [{
+				id: "114C30CBB32B0888"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "HOT HOT HOT"
+			tasks: [{
+				id: "53ACB844860C3536"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -29.714285714285715d
+			y: 1.5357142857142847d
+		}
+		{
+			dependencies: [
+				"6BC37BD93B5935B0"
+				"695A42F881C50703"
+			]
+			description: ["Using this anvil you can Imbue spells on to certain equipments that allow it making it so you have an extra spell whenever you're using that piece of gear! Also allows you to add upgrade orbs to your armor further increasing your gear's power."]
+			id: "04078FD6FBD598BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "552B5DC984280D2B"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "242FDC7D38F966A8"
+					table_id: 858487407543727412L
+					type: "choice"
+				}
+			]
+			subtitle: "A Prettier Anvil"
+			tasks: [{
+				id: "6BE070D00B32D1BC"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17DE785FD80DFF0A"]
+			description: ["Using ancient knowledge fragments found in Ancient Cities and an echo shard from the Warden. You can start unlocking Eldritch spells to craft. Crafting them is the only way to obtain these spells."]
+			id: "1AA6417B84E912E5"
+			subtitle: "The Final School"
+			tasks: [{
+				id: "5961B5C4DE95BD1D"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -0.5d
+		}
+	]
+	title: " Học Viện Phép Thuật"
+}

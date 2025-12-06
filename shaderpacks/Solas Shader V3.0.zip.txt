@@ -1,0 +1,6 @@
+#Sat Oct 11 16:53:09 AEST 2025
+shadowDistance=512.0
+VOXEL_VOLUME_SIZE=256
+shadowMapResolution=4096
+LPV_CLOUDY_FOG=true
+VL_SAMPLES=12

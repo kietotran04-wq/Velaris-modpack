@@ -1,0 +1,13 @@
+name = "Velaris Server"
+author = "Admin"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7b16905d29ecf56a2b4cd87d157ce36fc3053b8135b9416e91e8a89fc06ad4a7"
+
+[versions]
+forge = "47.4.0"
+minecraft = "1.20.1"

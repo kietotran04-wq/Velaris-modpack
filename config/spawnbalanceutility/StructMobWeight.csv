@@ -1,0 +1,9 @@
+* This is the StructMobWeight report file that is output every time the server starts.
+* 
+* Spawn Balance Utility (SBU) will use this file ONLY if it is renamed to StructMobWeight.csv.
+* Lines starting with '*' are comments and ignored
+* It allows you to add and remove mobs and adjust their spawnweights for Structures
+* like shipwrecks, nether fortresses, water monuments, etc.
+* 
+1, cataclysm:burning_arena, MONSTER, cataclysm:ignited_revenant, 10, 1, 1
+2, cataclysm:burning_arena, MONSTER, cataclysm:ignited_berserker, 30, 1, 1
