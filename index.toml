@@ -7061,6 +7061,10 @@ file = "options.txt"
 hash = "c2be9a769c984ce7febce25eb92af35a1af810e48c8653eac209d4fda326eaeb"
 
 [[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
 file = "resourcepacks/EF Plus - Pierced Animations.zip"
 hash = "bbb3ca0e80cea6b502ef226a260a51a5a02df2a0f130c938bec8644166e7ead1"
 
